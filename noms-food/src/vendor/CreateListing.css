@@ -1,0 +1,65 @@
+.createListingContainer {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .createForm .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  .createForm label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .createForm input[type="text"],
+  .createForm input[type="number"],
+  .createForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding does not affect the final computed width of an element */
+  }
+  
+  .createForm textarea {
+    height: 100px;
+    resize: vertical; /* Allows the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  .createForm .submitButton {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .createForm .submitButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .successMessage {
+    margin-top: 20px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .errorMessage {
+    color: red;
+  }
+  
+  

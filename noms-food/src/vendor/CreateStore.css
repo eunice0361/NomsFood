@@ -1,0 +1,23 @@
+/* CreateStore.css */
+.title {
+    font-size: 30px; /* Larger font size */
+    color: #007bff; /* Nice blue color */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* A more appealing font, customize as needed */
+    text-align: center; /* Center the title text */
+    margin-top: 20px;
+}
+
+.googleMapContainer {
+    display: flex;
+    justify-content: center; /* Center the map container */
+    margin-top: 1rem; /* Add some space above the map container */
+    overflow: hidden;
+}
+
+.googleMap {
+    width: 100%; /* Ensure the map fits within the container */
+    max-width: 700px; /* Max width to prevent it from getting too large */
+    height: 400px; /* Set a fixed height */
+    border: 1px solid #ddd; /* Add a subtle border around the map */
+    border-radius: 8px; /* Optional: round the corners of the map */
+}
